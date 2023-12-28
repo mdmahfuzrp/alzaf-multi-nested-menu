@@ -2,28 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html{
-  font-family: 'Inter', sans-serif;
+body,
+html {
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 
 /* Default styles */
-.custom-container{
+.custom-container {
   width: 100%;
   max-width: 1217px;
   margin: 0 auto;
 }
-.hover-svg svg path{
-  transition: .1s ease-in-out;
+.hover-svg svg path {
+  transition: 0.1s ease-in-out;
 }
-.hover-svg:hover svg path{
-  fill: #F97316;
+.hover-svg:hover svg path {
+  fill: #f97316;
 }
-.user-action svg path{
-  transition: .1s ease-in-out;
+.user-action svg path {
+  transition: 0.1s ease-in-out;
 }
-.user-action:hover svg path{
-  fill: #F97316;
+.user-action:hover svg path {
+  fill: #f97316;
   fill-opacity: 1;
   cursor: pointer;
   stroke-opacity: 1;
