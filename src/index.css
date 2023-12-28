@@ -4,10 +4,28 @@
 
 body, html{
   font-family: 'Inter', sans-serif;
+  font-size: 12px;
 }
 
+/* Default styles */
 .custom-container{
   width: 100%;
   max-width: 1217px;
   margin: 0 auto;
+}
+.hover-svg svg path{
+  transition: .1s ease-in-out;
+}
+.hover-svg:hover svg path{
+  fill: #F97316;
+}
+.user-action svg path{
+  transition: .1s ease-in-out;
+}
+.user-action:hover svg path{
+  fill: #F97316;
+  fill-opacity: 1;
+  cursor: pointer;
+  stroke-opacity: 1;
+  stroke: white;
 }
