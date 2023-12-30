@@ -3,7 +3,7 @@ import { SmallDownArrow } from "../assets/icons";
 
 const TopNav = () => {
   return (
-    <div className="bg-background py-[5px]">
+    <div className="bg-background hidden md:block py-[5px]">
       <div className="custom-container flex items-center justify-between">
         {/* Left items */}
         <div>

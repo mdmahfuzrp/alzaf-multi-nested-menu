@@ -1,8 +1,7 @@
 .swiper {
     width: 100%;
-    min-height: 381px;
+    min-height: 171px;
     background-color: blue;
-    border-radius: 4px;
   }
   .swiper-button-prev, .swiper-button-next{
     opacity: 0;
@@ -20,7 +19,7 @@
   }
   .swiper-slide img {
     display: block;
-    height: 381px;
+    height: 171px;
     object-fit: cover;
   }
 
@@ -38,3 +37,12 @@
   .swiper-button-disabled{
     display: none;
   }
+
+  @media screen and (min-width: 768px) {
+    .swiper {
+        min-height: 381px;
+    }
+    .swiper-slide img {
+        height: 381px;
+    }
+}

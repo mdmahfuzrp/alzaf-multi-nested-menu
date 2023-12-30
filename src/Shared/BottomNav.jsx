@@ -10,7 +10,7 @@ import {
 
 const BottomNav = () => {
   return (
-    <div className="mt-[12px]">
+    <div className="md:mt-[12px] hidden md:block">
       <div className="custom-container flex items-center justify-between">
         {/* Brand Logo */}
         <div>

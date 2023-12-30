@@ -1,0 +1,11 @@
+.slick-arrow{
+    opacity: 0;
+}
+.doubleOverlayBtn{
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+.doubleSlideOverlay{
+opacity: 0;
+transition: .2s ease-in-out;
+}

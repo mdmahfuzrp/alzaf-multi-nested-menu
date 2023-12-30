@@ -13,7 +13,7 @@ const MainLayout = () => {
       </div>
 
       {/* Body Section - Outlet */}
-      <div>
+      <div className="">
         <Outlet />
       </div>
 
